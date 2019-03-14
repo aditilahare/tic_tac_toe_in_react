@@ -1,0 +1,35 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dist": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditilahare/tic_tac_toe_in_react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditilahare/tic_tac_toe_in_react/issues"
+  },
+  "homepage": "https://github.com/aditilahare/tic_tac_toe_in_react#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "reactdom": "^2.0.0",
+    "react": "^16.8.4",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react-dom": "^16.8.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
